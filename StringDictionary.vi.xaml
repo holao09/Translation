@@ -16,7 +16,7 @@
 	<system:String x:Key="Settings.Language">Ngôn ngữ</system:String>
 	<system:String x:Key="Settings.Update">Cập nhật</system:String>
 	<system:String x:Key="Settings.Facebook">Facebook</system:String>
-	<system:String x:Key="Settings.Facebook.Like">Like</system:String>
+	<system:String x:Key="Settings.Facebook.Like">Thích</system:String>
 	<system:String x:Key="Settings.TemporaryPath">Thư mục tạm</system:String>
 	<system:String x:Key="Settings.Default">Mặc định</system:String>
 	<system:String x:Key="Settings.License">Giấy phép</system:String>
@@ -44,9 +44,9 @@
 	<system:String x:Key="AddDrive.Port">Cổng</system:String>
 	<system:String x:Key="AddDrive.Device">Thiết bị</system:String>
 	<system:String x:Key="AddDrive.PrivateKey">Private Key</system:String>
-	<system:String x:Key="AddDrive.Charset">Charset</system:String>
-	<system:String x:Key="AddDrive.TransferMode">Transfer Mode</system:String>
-	<system:String x:Key="AddDrive.Encryption">Encryption</system:String>
+	<system:String x:Key="AddDrive.Charset">Bộ ký tự</system:String>
+	<system:String x:Key="AddDrive.TransferMode">Chế độ truyền</system:String>
+	<system:String x:Key="AddDrive.Encryption">Mã hóa</system:String>
 
 	<system:String x:Key="Vailidation.Volume">Vui lòng điền thông tin hợp lệ</system:String>
 	<system:String x:Key="Vailidation.VolumeExist">Tên này đã có rồi</system:String>
@@ -61,20 +61,20 @@
 	<system:String x:Key="Vailidation.Password">Vui lòng điền mật khẩu</system:String>
 
 	<!--  Menu bar>Settings, account, volume  -->
-	<system:String x:Key="Vailidation.Hint.Volume">tên phân vùng</system:String>
+	<system:String x:Key="Vailidation.Hint.Volume">Tên phân vùng</system:String>
 	<system:String x:Key="Vailidation.Hint.Address">host.example.com</system:String>
-	<system:String x:Key="Vailidation.Hint.Address.LocalDrive">thư mục</system:String>
-	<system:String x:Key="Vailidation.Hint.Username">tên tài khoản</system:String>
-	<system:String x:Key="Vailidation.Hint.Password">mật khẩu</system:String>
-	<system:String x:Key="Vailidation.Hint.Port">cổng</system:String>
-	<system:String x:Key="Vailidation.Hint.Path">đường dẫn</system:String>
+	<system:String x:Key="Vailidation.Hint.Address.LocalDrive">Thư mục</system:String>
+	<system:String x:Key="Vailidation.Hint.Username">Tên tài khoản</system:String>
+	<system:String x:Key="Vailidation.Hint.Password">Mật khẩu</system:String>
+	<system:String x:Key="Vailidation.Hint.Port">Cổng</system:String>
+	<system:String x:Key="Vailidation.Hint.Path">Đường dẫn</system:String>
 	<system:String x:Key="Vailidation.Hint.Email">id@example.com</system:String>
-	<system:String x:Key="Vailidation.Hint.PrivateKeyPath">tập tin chưa privatekey</system:String>
+	<system:String x:Key="Vailidation.Hint.PrivateKeyPath">Tập tin chứa privatekey</system:String>
 
 	<system:String x:Key="Button.Yes">Có</system:String>
 	<system:String x:Key="Button.No">Không</system:String>
 	<system:String x:Key="Button.OK">OK</system:String>
-	<system:String x:Key="Button.Apply">Apply</system:String>
+	<system:String x:Key="Button.Apply">Duyệt</system:String>
 	<system:String x:Key="Button.Cancel">Hủy</system:String>
 	<system:String x:Key="Button.Check">Kiểm tra</system:String>
 	<system:String x:Key="Button.Edit">Sửa</system:String>
@@ -101,10 +101,10 @@
 	<system:String x:Key="Message.SelectedPath">Chọn đường dẫn</system:String>
 	<system:String x:Key="Message.DuplicatedPath">Trùng đường dẫn</system:String>
 
-	<system:String x:Key="Message.SureDelete">Are you sure you want to permanently delete &quot;{0} ({1})&quot; ?</system:String>
-	<system:String x:Key="Message.Title.ServiceDown">Revive RaiDrive</system:String>
-	<system:String x:Key="Message.Title.Reconnect">RaiDrive Reconnect</system:String>
-	<system:String x:Key="Message.ServiceDown">Please press OK button, RaiDrive will be alive.</system:String>
+	<system:String x:Key="Message.SureDelete">Bạn có muốn xóa hoàn toàn (không thể khôi phục) &quot;{0} ({1})&quot; ?</system:String>
+	<system:String x:Key="Message.Title.ServiceDown">Nhận RaiDrive</system:String>
+	<system:String x:Key="Message.Title.Reconnect">Kết nối lại RaiDrive</system:String>
+	<system:String x:Key="Message.ServiceDown">Vui lòng bấm nút OK, RaiDrive sẽ tái khởi động.</system:String>
 	<system:String x:Key="Message.Settings.Reconnect">Please press OK button, You must reconnect the remote storage for the changed settings to take effect.</system:String>
 	<system:String x:Key="Message.NotReady.Reboot">RaiDrive is not ready to start, You need restart system.</system:String>
 	<system:String x:Key="Message.NotReady.Driver">Device driver is not installed on your system. You need reinstall RaiDrive.</system:String>
